@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="388dp"
+        android:layout_height="316dp"
+        app:srcCompat="@drawable/choose_character" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <Button
+        android:id="@+id/importCustomButton"
+        android:layout_width="329dp"
+        android:layout_height="66dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#cd5c5c"
+        android:text="Import Custom Character" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <Button
+        android:id="@+id/randomCharacterButton"
+        android:layout_width="329dp"
+        android:layout_height="66dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#cd5c5c"
+        android:text="Play with Random Character" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="329dp"
+        android:layout_height="66dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#cd5c5c"
+        android:text="Back" />
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/defeatImage"
+        android:layout_width="459dp"
+        android:layout_height="359dp"
+        android:layout_marginBottom="8dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="Defeat"
+        android:maxHeight="100dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/defeat" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You were defeated!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#8B1A1A"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/tryAgainButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Try Again"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#8B1A1A"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/backToMenuButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to Menu"
+        android:backgroundTint="#8B1A1A"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
